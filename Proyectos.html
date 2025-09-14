@@ -10,19 +10,93 @@
     <a href="index.html">Pagina Principal</a><br>
     <a href="Contacto.html">Contacto</a>
     <h2>Juego de Trivia</h2>
-    <img src="" alt="">
+    <img src="imgs/AA5.jpg" alt="Juego de trivia" height="400" width="400">
     <p>
-
+        Juego de trivia de que consta de 10 preguntas cargadas mediante un archivo <strong>.TXT</strong>, el archivo esta
+        estructurado mediante espacios, saltos de linea y caracteres especiales, de manera que se puedan diferenciar las
+        categorias, las preguntas y las respuestas. El programa inicia con una ventana que muestra las categorias disponibles,
+        seguidamente tras seleccionar la categoria comienza la ronda de preguntas. Cada pregunta tiene 10 segundos para ser
+        respondidas, para las cuales el jugador debe escoger de entre tres opciones, daba una respuesta seleccionada o habiendo
+        terminado el tiempo, se muestra un mensaje indicando si la respuesta es correcta o incorrecta. Al final de la ronda de
+        preguntas se muestra al jugador el número de aciertos sobre el total de preguntas.
     </p>
+    <span>Tecnologias usadas:</span>
+    <ul>
+        <li>Lenguaje de programación Java (Interfaz/Lógica del juego)</li>
+    </ul>
     <h2>Dispensador de Medicamentos</h2>
-    <img src="" alt="">
+    <img src="imgs/Captura de pantalla (14).png" alt="Dispensador de Medicamentos" height="400" width="400">
     <p>
-
+        El proyecto consiste en un dispensador de medicamentos el cual recibe ordenes mediante una interfaz gráfica, en
+        dicha interfaz el usuario puede seleccionar la cantidad de unidades que desea respecto a cualquiera de los medicamentos
+        disponibles, una vez se hayan seleccionado los medicamentos con las respectivas unidades, el mecanismo activara dos
+        motores paso a paso, los cuales disponen un gancho que recogera los medicamentos, y de un sensor de distancia para
+        controlar el movimiento vertical y horizontal, debido a que los medicamentos estan separados por casillas en una 
+        base de madera. El proceso de seleccion de unidades se puede detener en pleno proceso, a su vez que también se 
+        puede reiniciar el procedimiento en caso de haber ocurrido algun error. Debido a que solo el arduino puede almacenar
+        instrucciones, fue en este en el que se programaron las posiciones de cada tipo de medicamento, indicando también el
+        respectivo tipo al que pertenece cada casilla. Por tanto es necesario destacar el sensor de ultrasonico, ya que es el
+        que permite realizar un mapeado de todas las casillas y limitar los movimientos del gancho.
     </p>
+    <span>Tecnologias usadas:</span>
+    <ul>
+        <li>Lenguajes / software</li>
+        <ul>
+            <li>Processing</li>
+            <li>IDE Arduino</li>
+        </ul>
+        <li>Hardware</li>
+        <ul>
+            <li>Arduino</li>
+            <li>Sensor Ultrasonsico</li>
+            <li>Motores Paso a Paso</li>
+            <li>Estructura de Madera</li>
+        </ul>
+        <li>Electronica complementaria</li>
+        <ul>
+            <li>Drivers de Motor Paso a Paso</li>
+            <li>Fuente de alimentación/Protoboard/cables</li>
+        </ul>
+    </ul>
     <h2>Telefonía IP</h2>
-    <img src="" alt="">
+    <img src="imgs/NET2PHONE-VENTAJAS.jpeg" alt="Telefonía IP" height="400" width="400">
     <p>
-        
+        El proyecto consiste en la configuración de una micro red destinada a levantar un servicio de telefonía IP, cabe
+        destacar que la posibilidad del proyecto fue posible gracias equipos prestados por parte de la Universidad NUR, los
+        cuales se encontraban en desuso debido a su reemplazo por equipos nuevos, sin estos equipos el costo del proyecto
+        hubiera sido bastante elevado. El proyecto se comenzo con la conexión de los diferentes equipos, de forma que
+        se obtuviera una micro red local, dicha red constaba de: 2 teléfonos IP, 1 central Grandstream, 1 switch y 2
+        computadoras portátiles. Tanto la central Grandstream como los teléfonos IP poseían interfaces web, mediante las
+        cuales se debían configurar los dispositivos, en el caso de la central se la configuraba para levantar el servicio
+        de telefonía IP, para el caso de los teléfonos, estos fueron configurados para poder ser reconocidos dentro de la
+        misma red de la central. Pasando a las computadoras portátiles, se les instaló un software (Zoiper) que permite
+        simular teléfonos VoIP, de forma que la central los reconozca como tales. De vuelta en la central, se añadían los
+        diapositivos dentro de la red (teléfonos/portátiles) para seguidamente asignarles un numero a cada uno, con esto
+        realizado la red local estaba lista para pasar llamadas entre los diferentes diapositivos. Una de las finalidades
+        del proyecto era demostrar la integración de redes telefónicas modernas en pequeñas o medianas empresas, siendo
+        estas redes económicas al mismo tiempo que privadas.
     </p>
+    <span>Tecnologias usadas:</span>
+    <ul>
+        <li>Hardware de Red</li>
+        <ul>
+            <li>Central IP Grandstream</li>
+            <li>Teléfonos IP físicos</li>
+            <li>Switch</li>
+            <li>Computadoras Portátiles</li>
+        </ul>
+        <li>Software</li>
+        <ul>
+            <li>Zoiper</li>
+            <li>Interfaces web de Administración</li>
+        </ul>
+        <li>Protocolos / Tecnologias de Red</li>
+        <ul>
+            <li>VoIP</li>
+            <li>SIP</li>
+            <li>RTD</li>
+            <li>Red LAN Conmutada</li>
+        </ul>
+    </ul>
 </body>
 </html>
